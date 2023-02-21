@@ -1,1 +1,13 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+.h-100vh {
+    height: 100vh;
+}
+
+.cards-container {
+    gap: 1rem;
+
+    .single {
+        width: calc(100% / 3 - 1rem);
+    }
+}
